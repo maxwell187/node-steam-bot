@@ -2,13 +2,13 @@
 var username;
 var summary;
 
-var character = ["maxwell is ⚡ powerful!", "maxwell is 👹 satanic!", "maxwell is 🍀 lucky!", "maxwell is 🍖 hungry!", "maxwell is 💄 beautiful!", "maxwell is 💎 rich!"]
+var character = ["i am legit player very good", "i no hacks i very good"]
 var randomItem = character[Math.floor(Math.random()*character.length)];
 
 var background = [9249765321, 9325973898, 9256908780, 8751186956]
 var randomBG = background[Math.floor(Math.random()*background.length)];
 
-var x = ["heavymaxwell", "rudemaxwell", "powerfulmaxwell", "luckymaxwell"]
+var x = ["typicalurl1", "typicalurl2", "typicalurl3", "typicalurl4"]
 var randomURL = x[Math.floor(Math.random()*x.length)];
 
 var SteamUser = require('steam-user');
@@ -38,8 +38,8 @@ client.logOn(firstLogonOptions);
 client.on('loggedOn', () => {
    console.log('Logged In!');
    client.setPersona(SteamUser.EPersonaState.Online);
-   client.gamesPlayed(["🎁🎈🍧🌳💛🐊🌏👳👹👃💎🌂⛳🎫😺🔋🌸🍆📒🥗🎈🚕", 444200, 730]);
-   setTimeout(function(){ client.gamesPlayed(["👑🏓🎄💙👃🐝🌋👔💚🎍💗🎫⚡🍖🥞🚘🌳🌋📗🐟😺🥗", 444200, 730]); }, 300000)
+   client.gamesPlayed(["idling around..", 444200, 730]);
+   setTimeout(function(){ client.gamesPlayed(["im happy!", 444200, 730]); }, 300000)
 
    
 }); 
