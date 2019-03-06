@@ -2,8 +2,6 @@
 ------------------------------
 This is a nodejs steam bot.
 
-How to use it?
-
 Install following modules in your directory:
 
 `npm install steam-user`
@@ -19,6 +17,7 @@ Install following modules in your directory:
 Edit your config.json & change some strings in the project. 
 
 Run your with `node main.js`.
+
 Done.
 ------------------------------
 Any questions? Open an issue here:
