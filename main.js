@@ -98,7 +98,7 @@ client.on("friendMessage", function(steamID, message){
 
 client.on("friendMessage", function(steamID, message){
   if(message == "trading"){
-    client.chatMessage(steamID, "We accept every single trade, except for those who wants to take our items.");
+    client.chatMessage(steamID, "I accept every single trade, except for those who wants to take my items.");
   }
 });
 
