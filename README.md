@@ -7,9 +7,13 @@ How to use it?
 Install following modules in your directory:
 
 `npm install steam-user`
+
 `npm install steam-tradeoffer-manager\n`
+
 `npm install steamcommunity`
+
 `npm install steam-totp`
+
 `npm install fs`
 
 Edit your config.json & change some strings in the project. 
