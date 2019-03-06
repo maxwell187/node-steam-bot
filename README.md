@@ -6,8 +6,8 @@ How to use it?
 
 Install following modules in your directory:
 
-`npm install steam-user
-npm install steam-tradeoffer-manager
+`npm install steam-user \n
+npm install steam-tradeoffer-manager\n
 npm install steamcommunity
 npm install steam-totp
 npm install fs`
