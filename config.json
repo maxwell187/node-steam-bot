@@ -1,0 +1,9 @@
+{
+    "bots": {
+        "firstaccount": {
+        	"shared_secret": "123456567", //not a real secret
+            "username": "yourusername", //enter your stuff here
+            "password": "yourpassword" //here your password
+        }
+     }
+}
