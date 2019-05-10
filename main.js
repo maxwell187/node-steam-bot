@@ -92,7 +92,7 @@ client.chatMessage(steamID, "🍭| dev | trading | idling |🍭")
 
 client.on("friendMessage", function(steamID, message){
   if(message == "dev"){
-    client.chatMessage(steamID, "My main developer is maxwell 🥇, aka. Johannes Dietze. 🎫");
+    client.chatMessage(steamID, "My main developer is maxwell😈");
   }
 });
 
